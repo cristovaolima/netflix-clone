@@ -1,0 +1,133 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Principal */
+body {
+    background-color: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+}
+
+header .logo {
+    color: var(--vermelho);
+    text-transform: uppercase;
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+    margin: 0rem 3rem;
+}
+
+header nav a {
+    font-size: 12px;
+    font-family: 'Arial Black', Times;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* Card filme pricipal */
+.filme-principal {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0,.50), rgba(0, 0, 0,.50)100%), url('/assets/img/the-flash.jpg');
+    height: 570px;
+    background-size: cover;    
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.filme-principal .container {
+    margin-left: 52px;
+    margin-bottom: 130px; 
+}
+
+.filme-principal .titulo {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 15%;  
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px; 
+    width: 50%;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.btn {
+    font-family: 'Arial Black', Times;
+    background-color: rgba(0, 0, 0,.50);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn i {
+    margin-right: 6px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.carrosel-filmes {
+    margin: -90px 0px 20px 10px;
+}
+
+.carrosel-filmes h2 {
+    font-size: 20px;
+    font-family: 'Arial Black', Times;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+footer p {
+    font-family: 'Arial Black', Times;
+    font-size: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--vermelho);
+}

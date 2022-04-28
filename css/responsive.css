@@ -1,0 +1,49 @@
+@media screen and (max-width: 768px){
+    header .container {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .container nav {
+        margin-bottom: 10px;
+    }
+
+    header .logo {
+        margin: 0px;
+    }
+
+    .filme-principal {
+        background-size: auto; 
+        height: 50%;
+    }
+
+    .filme-principal .container {
+        margin-left: 15px;
+        margin-bottom: 100px; 
+    }
+
+    .filme-principal .titulo {
+        margin-top: 90%;
+    }
+
+    .filme-principal .descricao {
+        display: none;
+    }
+
+    .btn {
+        margin-top: 10px;
+        width: 70%;
+    }
+
+    .carrosel-filmes {
+        margin: -70px 0px 20px 10px;
+    }
+
+    .carrosel-filmes h2 {
+        margin-left: 5px;
+    }
+}
